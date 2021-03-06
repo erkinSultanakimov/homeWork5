@@ -4,6 +4,8 @@ public class Hero {
     private int health;
     private int damage;
     private String power;
+
+
     public Hero(){
     }
     public Hero(int health, int damage, String power) {
@@ -26,6 +28,7 @@ public class Hero {
     }
 
     public String getPower() {
+
         return power;
     }
 }

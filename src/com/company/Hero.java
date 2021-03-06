@@ -21,23 +21,11 @@ public class Hero {
         return health;
     }
 
-    public void setHealth(int health) {
-        this.health = health;
-    }
-
     public int getDamage() {
         return damage;
     }
 
-    public void setDamage(int damage) {
-        this.damage = damage;
-    }
-
     public String getPower() {
         return power;
-    }
-
-    public void setPower(String power) {
-        this.power = power;
     }
 }
